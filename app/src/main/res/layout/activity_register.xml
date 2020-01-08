@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/view_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_logo"
+        android:layout_marginLeft="120dp"/>
+
+
+    <EditText
+        android:id="@+id/username_baru"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="206dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/password_baru"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:hint="Kata Sandi"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="374dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/email_baru"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="288dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#E67E22"
+        android:text="DAFTAR"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="473dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/loginbaruu"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:background="#E67E22"
+        android:text="MASUK"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="575dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun?"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="539dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="130dp"/>
+
+
+</RelativeLayout>

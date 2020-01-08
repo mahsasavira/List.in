@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_list">
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="mahsa.example.listin.ui.list.ListFragment"
+        android:label="DAFTAR CATATAN"
+        tools:layout="@layout/fragment_list" />
+
+
+    <fragment
+        android:id="@+id/nav_list_add"
+        android:name="mahsa.example.listin.ui.list.AddListFragment"
+        android:label="TAMBAH LIST"
+        tools:layout="@layout/fragment_add_list" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="mahsa.example.listin.ui.profile.ProfileFragment"
+        android:label="PROFIL"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="mahsa.example.listin.ui.about.AboutFragment"
+        android:label="TENTANG"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

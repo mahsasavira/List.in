@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/daftar_list"
+            android:icon="@drawable/list"
+            android:title="DAFTAR CATATAN" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/addlist"
+            android:title="TAMBAH CATATAN" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="PROFIL" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="TENTANG" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="KELUAR" />
+    </group>
+</menu>
